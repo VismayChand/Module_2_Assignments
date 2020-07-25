@@ -1,0 +1,109 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ; 
+    padding: 0px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 100px auto 50px;
+    font-size: 40px;
+}
+
+.container{
+    margin: auto;
+    padding-left: 40px;
+}
+
+.element{
+    width: 31%;
+    border-color: black;
+    text-align: left;
+    background-color: #999999;
+    margin: 25px 10px;
+    padding-bottom: 0px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+.element > p{
+    clear: right;
+    padding: 0px 20px;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.ch{
+    font-size: 25px;
+    float: right;
+    background-color: #d59898;
+    margin: 0px 0px 15px;
+    padding: 4px 6%;
+    border: 1px solid black;
+    position: relative;
+    left: 1px;
+    bottom: 1px;
+}
+.bf{
+    font-size: 25px;
+    float: right;
+    background-color: #c14543;
+    padding: 4px 9.25%;
+    margin: 0px 0px 15px;
+    border: 1px solid black; 
+    color: white;
+    position: relative;
+    left: 1px;
+    bottom: 1px;
+}
+
+.sh{
+    font-size: 25px;
+    float: right;
+    padding: 4px 9%;
+    background-color: #e5d198;
+    margin: 0px 0px 15px;
+    border: 1px solid black;
+    position: relative;
+    left: 1px;
+    bottom: 1px;
+}
+
+@media (min-width:992px)
+{
+    #b1{
+        width: 31%;
+    }
+    #b2{
+        width: 31%;
+    }
+    #b3{
+        width: 31%;
+    }
+}
+@media (min-width:768px) and (max-width: 991px)
+{
+  #b1{
+     width: 45%;
+ }
+ #b2{
+     width: 45%;
+ }
+ #b3{
+     width: 92%;
+ }
+}
+@media (max-width:767px)
+{
+    #b1{
+        width: 95%;
+    }
+    #b2{
+        width: 95%;
+    }
+    #b3{
+        width: 95%;
+    }
+}
